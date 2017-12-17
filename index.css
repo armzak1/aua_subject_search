@@ -1,0 +1,72 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#searchTextBox{
+  position: absolute;
+  left: 50%;
+  margin-left: -350px;
+  margin-top: 30px;
+  float: left;
+  width: 500px;
+  height: 30px;
+}
+
+#search{
+  height: 30px;
+  width: 100px;
+  color: black;
+  border: none;
+  background-color: orange;
+  outline: none;
+  cursor: pointer;
+}
+
+#titleText{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: grey;
+}
+
+#filterContainer
+{
+  margin: 0 auto;
+  width: 80%;
+}
+
+#filterContainer > *
+{
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    display: inline-block;
+    outline: none;
+    margin-left: 30px;
+    color: grey;
+}
+
+#timetable {
+    margin-top: 35px;
+}
+
+.course {
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    width: 970px;
+    margin-left: 31px;
+    position: relative;
+    padding: 10px;
+}
+
+.course > input {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: orange;
+    height: 20px;
+    border: none;
+}
+
+.course * {
+    display: inline;
+}

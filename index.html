@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title> AUA Course Picking Assistant </title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+  </head>
+
+  <body>
+    <div id='logo'>
+      <center>
+        <img src='aua-logo.jpg' center='true'> <br> <br>
+        <div id='titleText'> AUA Course Picking Assistant </div>
+      </center>
+    </div>
+
+
+    <div id='filterContainer'>
+
+        <div id='instructorTextBox'>
+          <label for="instructor"> Instructor </label> <br>
+          <input id='instructor' type='text' />
+        </div>
+
+        <div id='titleTextBox'>
+          <label for="title"> Title </label> <br>
+          <input id='title' type='text' />
+        </div>
+
+      <div id='clusterDropDown'>
+        <label for="clusterNumber">Cluster</label> <br>
+        <select id='clusterNumber'>
+            <option value="">
+
+            </option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+
+      <div id='daysDropDown'>
+        <label for="dayNumber"> Days </label> <br>
+        <select id='dayNumber'>
+          <option value="">---</option>
+          <option value="M W F">MWF</option>
+          <option value="T R">TTh</option>
+        </select>
+      </div>
+
+      <div id='startTextBox'>
+        <label for="startTime"> Starts After </label> <br>
+        <input id='startTime' type='text' value="08:30" />
+      </div>
+
+      <div id='endTextBox'>
+        <label for="endTime"> Ends Before </label> <br>
+        <input id='endTime' type='text' value="10:30" />
+      </div>
+
+      <div id='searchButton'>
+        <input type='button' id='search' value='Search'/>
+      </div>
+
+      <div id='timetable'>
+
+      </div>
+  </div>
+  </body>
+</html>
